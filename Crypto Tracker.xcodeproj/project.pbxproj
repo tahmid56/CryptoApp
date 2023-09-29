@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		08757E3C2AC64FFD00151C42 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757E3B2AC64FFD00151C42 /* CryptoApp.swift */; };
 		08757E3E2AC64FFD00151C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757E3D2AC64FFD00151C42 /* ContentView.swift */; };
-		08757E402AC64FFE00151C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08757E3F2AC64FFE00151C42 /* Assets.xcassets */; };
 		08757E432AC64FFE00151C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08757E422AC64FFE00151C42 /* Preview Assets.xcassets */; };
+		08757E4A2AC6516E00151C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08757E492AC6516E00151C42 /* Assets.xcassets */; };
+		08757E4D2AC6521000151C42 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757E4C2AC6521000151C42 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08757E382AC64FFD00151C42 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08757E382AC64FFD00151C42 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08757E3B2AC64FFD00151C42 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		08757E3D2AC64FFD00151C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		08757E3F2AC64FFE00151C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08757E422AC64FFE00151C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08757E492AC6516E00151C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/Resources 2/Assets.xcassets"; sourceTree = "<group>"; };
+		08757E4C2AC6521000151C42 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		08757E392AC64FFD00151C42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08757E382AC64FFD00151C42 /* Crypto.app */,
+				08757E382AC64FFD00151C42 /* Crypto Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +53,10 @@
 		08757E3A2AC64FFD00151C42 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				08757E4B2AC651FD00151C42 /* Extensions */,
 				08757E3B2AC64FFD00151C42 /* CryptoApp.swift */,
 				08757E3D2AC64FFD00151C42 /* ContentView.swift */,
-				08757E3F2AC64FFE00151C42 /* Assets.xcassets */,
+				08757E492AC6516E00151C42 /* Assets.xcassets */,
 				08757E412AC64FFE00151C42 /* Preview Content */,
 			);
 			path = Crypto;
@@ -67,12 +70,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		08757E4B2AC651FD00151C42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08757E4C2AC6521000151C42 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08757E372AC64FFD00151C42 /* Crypto */ = {
+		08757E372AC64FFD00151C42 /* Crypto Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08757E462AC64FFE00151C42 /* Build configuration list for PBXNativeTarget "Crypto" */;
+			buildConfigurationList = 08757E462AC64FFE00151C42 /* Build configuration list for PBXNativeTarget "Crypto Tracker" */;
 			buildPhases = (
 				08757E342AC64FFD00151C42 /* Sources */,
 				08757E352AC64FFD00151C42 /* Frameworks */,
@@ -82,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = Crypto;
+			name = "Crypto Tracker";
 			productName = Crypto;
-			productReference = 08757E382AC64FFD00151C42 /* Crypto.app */;
+			productReference = 08757E382AC64FFD00151C42 /* Crypto Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08757E332AC64FFD00151C42 /* Build configuration list for PBXProject "Crypto" */;
+			buildConfigurationList = 08757E332AC64FFD00151C42 /* Build configuration list for PBXProject "Crypto Tracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08757E372AC64FFD00151C42 /* Crypto */,
+				08757E372AC64FFD00151C42 /* Crypto Tracker */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08757E432AC64FFE00151C42 /* Preview Assets.xcassets in Resources */,
-				08757E402AC64FFE00151C42 /* Assets.xcassets in Resources */,
+				08757E4A2AC6516E00151C42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				08757E3E2AC64FFD00151C42 /* ContentView.swift in Sources */,
 				08757E3C2AC64FFD00151C42 /* CryptoApp.swift in Sources */,
+				08757E4D2AC6521000151C42 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +285,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +313,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08757E332AC64FFD00151C42 /* Build configuration list for PBXProject "Crypto" */ = {
+		08757E332AC64FFD00151C42 /* Build configuration list for PBXProject "Crypto Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08757E442AC64FFE00151C42 /* Debug */,
@@ -329,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08757E462AC64FFE00151C42 /* Build configuration list for PBXNativeTarget "Crypto" */ = {
+		08757E462AC64FFE00151C42 /* Build configuration list for PBXNativeTarget "Crypto Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08757E472AC64FFE00151C42 /* Debug */,
